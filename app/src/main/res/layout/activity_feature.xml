@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".feature">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/featuresList"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:text="Age" />
+
+                <EditText
+                    android:id="@+id/spinner_age"
+                    android:inputType="number"
+                    android:layout_width="52dp"
+                    android:textColor="@color/black"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+
+                    android:gravity="center_vertical"
+
+                    android:layout_marginStart="30dp"
+                    android:text="Body Temperature" />
+
+                <EditText
+                    android:id="@+id/body_temp"
+                    android:layout_width="52dp"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/black"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+
+                    android:layout_marginStart="30dp"
+                    android:text="Pulse Rate" />
+
+                <EditText
+                    android:id="@+id/pulse"
+                    android:layout_width="52dp"
+                    android:textColor="@color/black"
+
+                    android:inputType="number"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+
+                    android:layout_marginStart="30dp"
+                    android:text="Systolic Blood Pressure" />
+
+                <EditText
+                    android:id="@+id/systolic"
+                    android:layout_width="52dp"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+
+                    android:layout_marginStart="30dp"
+                    android:text="Diastolic Blood Pressure" />
+
+                <EditText
+                    android:id="@+id/diastolic"
+                    android:layout_width="52dp"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="87dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/black"
+
+                    android:text="Select Gender" />
+
+                <Spinner
+                    android:id="@+id/spinner_gender"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    android:textColor="@color/black"
+
+                    android:text="Sneezing" />
+
+                <Spinner
+                    android:id="@+id/sneezing"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+
+                    android:layout_marginStart="30dp"
+                    android:text="Cough" />
+
+                <Spinner
+                    android:id="@+id/cough"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+
+                    android:layout_marginStart="30dp"
+                    android:text="Vomiting" />
+
+                <Spinner
+                    android:id="@+id/vomiting"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/transfer_feature"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Proceed"
+                    android:layout_marginLeft="35dp"
+                    />
+
+                <Button
+                    android:id="@+id/generator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="generate"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <ListView
+        android:id="@+id/featuresList"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Select body parts that are showing symptoms"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/asdfg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:backgroundTint="#B6B4B4"
+                android:text="Head"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/abdomen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#B6B4B4"
+                android:text="Abdomen"
+                />
+
+            <Button
+                android:id="@+id/throat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#B6B4B4"
+                android:text="Throat" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/lowerback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#B6B4B4"
+                android:text="Lower Back"
+
+               />
+
+            <Button
+                android:id="@+id/ear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#B6B4B4"
+                android:text="Ear"
+                />
+
+            <Button
+                android:id="@+id/eyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#B6B4B4"
+                android:text="Eye" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mouth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#B6B4B4"
+                android:textColor="@color/white"
+                android:layout_marginLeft="25dp"
+                android:text="Mouth" />
+
+            <Button
+                android:id="@+id/nose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#B6B4B4"
+                android:text="Nose" />
+
+            <Button
+                android:id="@+id/create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#B6B4B4"
+                android:textColor="@color/white"
+                android:text="Heart"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/chest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#B6B4B4"
+                android:textColor="@color/white"
+                android:layout_marginStart="90dp"
+                android:layout_marginLeft="25dp"
+                android:text="Chest" />
+
+            <Button
+                android:id="@+id/joints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#B6B4B4"
+                android:text="Joints"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Fill the necessary details"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

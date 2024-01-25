@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Lower back pain radiates to legs : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinlb1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Severity of lower back pain : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinlb2"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Is low back pain resolving or improving with flexed spine position (patient may elect to be in flexed position)? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinlb3"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Is straining, sneezing, or coughing triggering or making the low back pain worse : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinlb4"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Is low back pain resolving or improving during night / prolonged rest? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinlb5"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Is exercise and physical activity improving or worsening the low back pain? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinlb6"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

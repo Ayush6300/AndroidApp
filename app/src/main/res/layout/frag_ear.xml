@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text="Is there a gross discharge from ear seen on gross observation or an otoscopic examination? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinear1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text="Is auditory external meatus tender in otoscopic exam? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinear2"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text="Is external auditory canal edematous in otoscopic exam? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinear3"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Is external auditory canal erythematous in otoscopic exam? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinear4"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text="Is there outward bulging of the tympanic membrane on otoscopic exam? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinear6"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text="History of wet ear : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinear7"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text="History of having Ear trauma before pain : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinear8"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text="Pus in the ear : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinear9"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text="Ear Pain : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinear10"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text="Hearing Loss : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinear11"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

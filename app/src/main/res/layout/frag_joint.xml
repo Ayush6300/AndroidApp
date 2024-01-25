@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select specific symptoms of Joints"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Is there a localized bone or joint pain (other than low back pain), without obvious trigger i.e. trauma? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinjoint1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Multiple joint pain : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinjoint2"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="History of generalized bones' pains? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinjoint3"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="History of generalized muscle pains? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinjoint4"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Is there pain in first metatarsophalangeal joint? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinjoint5"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="How long the pain in first metatarsophalangeal joint progressed over? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinjoint6"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Is there localized spine pain : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinjoint7"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="resting pain in distal lower extremities', toes or feet? : "
+                android:textSize="15sp"
+                />
+
+            <Spinner
+                android:id="@+id/spinjoint8"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/session"
+            android:layout_width="90dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Med_window">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/med_window_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/med_window_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="154dp"
+        android:text="WINDOW"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/med_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="181dp"
+        android:text="Type"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/med_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="450dp"
+        android:text="Quantity"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/med_sideEffects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="350dp"
+        android:hint="Side Effects"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/uses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="500dp"
+        android:hint="Uses"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="154dp"
+        android:text="In Stock : "
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/drugs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="194dp"
+        android:text="drugs"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
